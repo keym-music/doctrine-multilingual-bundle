@@ -1,10 +1,10 @@
 {
-  "name": "gauthier/doctrine-multilingual-bundle",
+  "name": "keym-music/doctrine-multilingual-bundle",
   "type": "symfony-bundle",
   "require-dev": {
     "codeception/codeception": "^5.0",
     "codeception/module-asserts": "^2.0",
-    "symfony/symfony": "^6.2"
+    "symfony/symfony": "^6.4"
 
   },
   "authors": [
@@ -15,12 +15,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Gauthier\\MultilingualBundle\\": "src/"
+      "Keym\\MultilingualBundle\\": "src/"
     }
   },
   "minimum-stability": "stable",
   "require": {
     "php": ">=8.1",
-    "gauthier/doctrine-multilingual-string": "~2.0.0"
+    "keym-music/doctrine-multilingual-string": "~2.0.0"
   }
 }
