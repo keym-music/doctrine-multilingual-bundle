@@ -5,7 +5,6 @@
     "codeception/codeception": "^5.0",
     "codeception/module-asserts": "^2.0",
     "symfony/symfony": "^6.4"
-
   },
   "authors": [
     {
@@ -21,6 +20,6 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=8.1",
-    "keym-music/doctrine-multilingual-string": "~2.0.0"
+    "keym-music/doctrine-multilingual-string": "~2.1.0"
   }
 }
