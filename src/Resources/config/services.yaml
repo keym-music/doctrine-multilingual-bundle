@@ -1,11 +1,11 @@
 services:
   doctrine_multilingual.initializer:
-    class: Gauthier\MultilingualBundle\EventListener\DoctrineMultilingualInitializer
+    class: Keym\MultilingualBundle\EventListener\DoctrineMultilingualInitializer
     autowire: true
     tags:
       - { name: kernel.event_listener, event: kernel.request, priority: 1024 }
 
-  Gauthier\MultilingualBundle\Service\MultilingualService:
-    class: Gauthier\MultilingualBundle\Service\MultilingualService
+  Keym\MultilingualBundle\Service\MultilingualService:
+    class: Keym\MultilingualBundle\Service\MultilingualService
     autowire: true
 

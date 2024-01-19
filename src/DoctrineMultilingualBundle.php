@@ -1,8 +1,8 @@
 <?php
-namespace Gauthier\MultilingualBundle;
+namespace Keym\MultilingualBundle;
 
 use Doctrine\DBAL\Types\Type;
-use Gauthier\MultilingualString\Type\MultilingualStringType;
+use Keym\MultilingualString\Type\MultilingualStringType;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -21,5 +21,8 @@
   "require": {
     "php": ">=8.1",
     "keym-music/doctrine-multilingual-string": "~2.1.0"
-  }
+  },
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/keym-music/doctrine-multilingual-string" }
+  ]
 }

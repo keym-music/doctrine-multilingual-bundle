@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Gauthier\MultilingualBundle\DependencyInjection;
+namespace Keym\MultilingualBundle\DependencyInjection;
 
 
-use Gauthier\MultilingualBundle\Controller\MultilingualStringsController;
+use Keym\MultilingualBundle\Controller\MultilingualStringsController;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;

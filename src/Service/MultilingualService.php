@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Gauthier\MultilingualBundle\Service;
+namespace Keym\MultilingualBundle\Service;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\Persistence\ObjectManager;

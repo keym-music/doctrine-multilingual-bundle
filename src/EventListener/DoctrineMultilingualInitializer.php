@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Gauthier\MultilingualBundle\EventListener;
+namespace Keym\MultilingualBundle\EventListener;
 
 
-use Gauthier\MultilingualString\MultilingualString;
-use Gauthier\MultilingualString\MultilingualStringException;
+use Keym\MultilingualString\MultilingualString;
+use Keym\MultilingualString\MultilingualStringException;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\HttpFoundation\Request;

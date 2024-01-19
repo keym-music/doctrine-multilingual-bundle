@@ -1,6 +1,6 @@
 <?php namespace EventListener;
 
-use Gauthier\MultilingualBundle\EventListener\DoctrineMultilingualInitializer;
+use Keym\MultilingualBundle\EventListener\DoctrineMultilingualInitializer;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class DoctrineMultilingualInitializerTest extends \Codeception\Test\Unit
